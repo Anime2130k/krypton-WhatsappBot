@@ -1,5 +1,3 @@
-const yts = require('yt-search')
-
 module.exports = {
     name: 'ytsearch',
     aliases: ['yts'],
@@ -8,7 +6,7 @@ module.exports = {
     description: 'Searches the video of the given query in YouTube',
     async execute(client, flag, arg, M) {
         if (!arg) return M.reply('Sorry you did not give any search term!')
-        const { videos } = await yts(arg.trim())
+        const videos = await client.utils.fetch(`https://weeb-api.vercel.app/ytsearch?query=${arg.trim()}`)
         if (!videos || !videos.length) return M.reply(`No videos found | *"${query}"*`)
         let text = ''
         const length = videos.length >= 10 ? 10 : videos.length
