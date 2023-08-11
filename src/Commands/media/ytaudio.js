@@ -1,5 +1,4 @@
 const YT = require('../../lib/YT')
-const yts = require('yt-search')
 
 module.exports = {
     name: 'ytaudio',
@@ -9,7 +8,7 @@ module.exports = {
     description: 'Downloads given YT Video and sends it as Audio',
     async execute(client, flag, arg, M) {
         const link = async (term) => {
-            const { videos } = await yts(term.trim())
+            const videos = await client.utils.fetch(`https://weeb-api.vercel.app/ytsearch?query=${term.trim()}`)
             if (!videos || !videos.length) return null
             return videos[0].url
         }
