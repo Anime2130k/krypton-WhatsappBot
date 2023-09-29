@@ -58,12 +58,12 @@ module.exports = {
                     obj[item.category].push(item.name)
                 }
             })
-            let base = `⛩️ *❯──「Kɾყρƚσɳ」──❮* ⛩️
+            let base = `⛩️ *❯──MEGUMI💮──❮* ⛩️
 
 👋 *Hi @${M.sender.split('@')[0]}* 🍃!
 
 🎋 *Support us by following us on instagram:*
-https://www.instagram.com/das_abae
+https://instagram.com/_ne_itachi_?igshid=OGQ5ZDc2ODk2ZA==
 
 This help menu is designed to help you get started with the bot.`
             base += '\n\n ⟾ *📪Command list📪*'
