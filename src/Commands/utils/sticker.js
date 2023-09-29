@@ -18,7 +18,7 @@ module.exports = {
             const buffer = isQuoted ? await M.quoted.download() : await M.download()
             const sticker = new Sticker(buffer, {
                 pack: pack[0] ? pack[0].trim() : '👾 Handcrafted for you by',
-                author: pack[1] ? pack[1].trim() : `Krypton 👾`,
+                author: pack[1] ? pack[1].trim() : `MEGUMI💮`,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
                 quality: 70
