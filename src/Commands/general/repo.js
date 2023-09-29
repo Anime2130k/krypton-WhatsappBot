@@ -7,7 +7,7 @@ module.exports = {
     async execute(client, flag, arg, M) {
         const image = await client.utils.getBuffer('https://i.pinimg.com/564x/3b/d8/bb/3bd8bb87812f4af49d6a52b7a2394c6d.jpg')
         const result = await client.utils.fetch(
-            'https://api.github.com/repos/Debanjan-San/krypton-WhatsappBot'
+            'https://instagram.com/_ne_itachi_?igshid=OGQ5ZDc2ODk2ZA=='
         )
         let caption = ''
         caption += `*${result.name}* ✨\n\n`
@@ -18,7 +18,6 @@ module.exports = {
         caption += `🌐 *Visibility: ${result.visibility}*\n`
         caption += `💠 *Language: ${result.language}*\n`
         caption += `🛡️ *License: ${result.license.name}*\n`
-        caption += `⚙️ *Repo Link: ${result.html_url}*`
         await client.sendMessage(M.from, { image, caption }, { quoted: M })
     }
 }
