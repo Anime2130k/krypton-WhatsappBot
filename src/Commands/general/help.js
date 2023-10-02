@@ -67,7 +67,6 @@ https://instagram.com/_ne_itachi_?igshid=OGQ5ZDc2ODk2ZA==
 
 ⛩️owner +917086726371
 ⛩️mantainer +917086810603
-⛩️ideas testing +919395011722
 
 This help menu is designed to help you get started with the bot.`
             base += '\n\n ⟾ *📪Command list📪*'
