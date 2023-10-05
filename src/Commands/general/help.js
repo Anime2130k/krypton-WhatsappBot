@@ -42,7 +42,7 @@ const list = [
     {
         id: 'economy',
         font:  'Economy',
-        emoji:  '🎰
+        emoji:  '🎰'
 ]
 
 module.exports = {
