@@ -38,7 +38,11 @@ const list = [
         id: 'weeb',
         font: 'WҽҽႦ',
         emoji: '🎐'
-    }
+    },
+    {
+        id: 'economy',
+        font:  'Economy',
+        emoji:  '🎰
 ]
 
 module.exports = {
