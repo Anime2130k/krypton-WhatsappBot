@@ -62,7 +62,8 @@ module.exports = {
                     obj[item.category] = []
                     obj[item.category].push(item.name)
                 }
-            })            let base = `⛩️ *❯──MEGUMI💮──❮* ⛩️
+            })            
+            let base = `⛩️ *❯──MEGUMI💮──❮* ⛩️
 
 👋 *Hi @${M.sender.split('@')[0]}* 🍃!
 
