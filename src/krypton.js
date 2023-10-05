@@ -75,7 +75,6 @@ const start = async () => {
                 for (let file of commandFiles) {
                     const command = require(join(rootDir, $dir, file))
                     client.cmd.set(command.name, command)
-                    client.log(`Loaded: ${command.name.toUpperCase()} from ${file}`)
                 }
             })
             client.log(`Successfully Loaded Commands`)
