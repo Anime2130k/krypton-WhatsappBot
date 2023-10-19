@@ -67,8 +67,8 @@ module.exports = {
 
 👋 *Hi @${M.sender.split('@')[0]}* 🍃!
 
-🎋 *Support us by following us on instagram:*
-https://instagram.com/_ne_itachi_?igshid=OGQ5ZDc2ODk2ZA==
+🎋 *Support us by following us on youtube:*
+https://youtube.com/@animeparadise9503?si=qz-jHVpjjP3f4bd6
 
 ⛩️owner +917086726371
 ⛩️mantainer +917086810603
